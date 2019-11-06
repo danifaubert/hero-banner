@@ -12,14 +12,15 @@ html {
   width: 100%;
 }
 
-.card {
+.banner {
   overflow: hidden;
   padding: .2rem 2rem;
+  position: relative;
 }
 
 .body {
-    font-size: 2rem;
-    font-style: italic;
+  font-size: 2rem;
+  font-style: italic;
 }
 
 h2 {
