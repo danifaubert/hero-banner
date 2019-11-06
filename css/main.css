@@ -19,22 +19,24 @@ html {
   border-radius: 0 6px 6px;
 }
 
-.card-title {
+.banner {
   font-size: 4rem;
   font-weight: bold;
   background-color: rgba(0, 0, 0, .5);
   color: #fff;
   margin: 0;
   padding: .3rem 1rem;
+  max-height: 500px;
   position: absolute;
   left: 0;
   top: 0;
 }
 
-.card-body {
+.body {
   font-size: 2rem;
   font-style: italic;
   padding: .2rem 2rem;
+  max-width: 50rem;
   position: absolute;
   bottom: 0;
   left: 0;
