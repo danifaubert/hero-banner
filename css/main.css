@@ -9,22 +9,33 @@ html {
 
 .img-flex {
   display: block;
+  width: 100%;
+}
+
+.card {
+  overflow: hidden;
+  padding: .2rem 2rem;
+}
+
+.body {
+    font-size: 2rem;
+    font-style: italic;
 }
 
 h2 {
+  text-transform: capitalize;
   font-weight: bold;
-  font-size: 4rem;
   background-color: rgba(0, 0, 0, .5);
   color: #fff;
-}
-
-p {
-  font-size: 2rem;
-  font-style: italic;
+  position: absolute;
+  margin: 0;
+  padding: .3rem 1rem;
+  bottom: 0;
+  left: 0;
+  max-height: 500px;
+  max-width: 50em;
 }
 
 .banner {
   position: relative;
-  max-height: 500px;
-  max-width: 50em;
 }
