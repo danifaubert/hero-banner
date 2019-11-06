@@ -23,7 +23,6 @@ html {
 }
 
 h2 {
-  text-transform: capitalize;
   font-weight: bold;
   background-color: rgba(0, 0, 0, .5);
   color: #fff;
@@ -34,6 +33,7 @@ h2 {
   left: 0;
   max-height: 500px;
   max-width: 50em;
+  text-transform: capitalize;
 }
 
 .banner {
