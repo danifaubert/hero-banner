@@ -44,13 +44,14 @@ h2 {
   margin: 0;
   padding: 0 1.5rem;
   position: absolute;
-  left: -.10%;
-  top: 34.76%;
-  transform: translateY(-50%);
+  left: .88%;
+  top: 10%;
+  transform: translate(-.88%, -10%);
 }
 
 p {
   margin-top: 1rem;
   font-style: italic;
   font-size: 2rem;
+  margin-bottom: 0;
 }
